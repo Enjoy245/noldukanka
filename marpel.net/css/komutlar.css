@@ -1,0 +1,192 @@
+.ozellik_btn {
+    width: 128px;
+    height: 128px;
+    background: #2b2f33;
+    color: #ddd;
+    outline: none;
+    border: 2px solid #1c1d20;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 4px 6px;
+
+    transition: 0.3s box-shadow;
+
+}
+
+.ozellik_btn:hover, .ozellik_btn_i:hover {
+    box-shadow: 0 0 10px 1px #ff2f8b;
+    z-index: 5;
+}
+
+.ozellik_btn:active {
+    box-shadow: 0 0 10px 1px #ff2f8b;
+    z-index: 5;
+}
+.ozellik_btn_i {
+    width: 80px;
+    height: 80px;
+    background: #2b2f33;
+    color: #ddd;
+    outline: none;
+    border: 2px solid #1c1d20;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 4px 6px;
+
+    transition: 0.3s box-shadow;
+
+}
+    .kopli-seperator {
+    border-bottom-right-radius: 60% 100%;
+    border-bottom-left-radius: 60% 100%;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:unset;
+    background: rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 1;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	margin-bottom: 15px;
+}
+
+.kopli-navbar {
+	display: inline-flex;
+	flex-direction: row;
+	margin-right: 5.09%;
+}
+    .home-button {
+    margin: 0px 12px;
+}
+
+    @media (max-width: 1023px) {
+      .komut-butonlar {
+             position: absolute;
+      left: 400px;
+  top: 500px;
+  z-index: 0;
+      }
+}
+
+
+
+#myInput {
+    background: #2b2f33;
+    color: #fff;
+    outline: none;
+    border: 2px solid #1c1d20;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 4px 6px;
+    width: 65%;
+  height: 50%;
+  font-size: 16px;
+    transition: 0.3s box-shadow;
+}
+#myInput:hover {
+      box-shadow: 0 0 10px 1px #ff2f8b;
+    z-index: 5;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 65%;
+  color: white;
+  background-color: #2b2f33;
+  border: 1px solid #1c1d20;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+a {
+      color: #ff2f8b; 
+}
+a:hover {
+      color: #fff; 
+}
+#myTable tr {
+  border-bottom: 1px solid #1c1d20;
+}
+
+#myTable tr.header {
+  background-color: #1c1d20;
+        box-shadow: 0 0 10px 1px #1c1d20;
+    z-index: 5;
+}
+
+#myTable tr:hover {
+      box-shadow: 0 0 10px 1px #ff2f8b;
+    z-index: 5;
+
+}
+
+@media only screen and (max-width: 900px) {
+	#myTable {
+	  width: 95%;
+	}
+	#myInput {
+	  width: 95%;
+	  font-size: 17px;
+	  margin-bottom: 12px;
+	}
+	
+	#myTable th, #myTable td {
+	  text-align: left;
+	  padding: 10px;
+	}
+  footer {
+    background: #222;
+    color: #ddd;
+    padding: 15px 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+      .nav-footer-holder {
+        display: block;
+        height: 0px;
+        background: transparent;
+    }
+
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2b2f33;
+      border-color: #ff2f8b;
+    box-shadow: 0 0 15px 1px #ff2f8b;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip .tooltiptext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
